@@ -10,7 +10,7 @@ afterEach(() => {
 
 describe("Github page tests", () => {
 beforeEach(async () => {
-  page = await browser.newPage();
+  //page = await browser.newPage();
   await page.goto("https://github.com/team");
 });
 
@@ -40,7 +40,7 @@ beforeEach(async () => {
 
 describe("Github page tests new", () => {
     beforeEach (async () => {
-      page = await browser.newPage();
+      //page = await browser.newPage();
       await page.goto("https://github.com");
     }, 50000);
     
